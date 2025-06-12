@@ -61,6 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         labelText: 'Username',
                         hintText: 'Enter your username',
                       ),
+                      autocorrect: false,
                       keyboardType: TextInputType.emailAddress,
                     ),
                     TextField(
